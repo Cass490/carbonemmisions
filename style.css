@@ -1,0 +1,78 @@
+html
+{
+	display: flex;
+font-family: Source Sans Pro, sans serif;
+background-color:whitesmoke;
+justify-content: center;
+align-content: center;
+
+background-image: url("https://unsplash.com/photos/Pxa0yJ2Elxc/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MjB8fGVjb2xvZ3l8ZW58MHx8fHwxNzA1ODI4OTQ0fDA&force=true");
+background-size: cover;
+
+}
+body
+{
+	background-image: url("https://unsplash.com/photos/gxIg8FcDIC8/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8ZWNvbG9neXxlbnwwfHx8fDE3MDU4Mjg5NDR8MA&force=true&w=1920");
+	background-size: cover;
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.num
+{
+	width: 5ch;
+}
+
+.power
+{
+	width: 7ch;
+	text-align: right;
+}
+
+.fieldSet
+{
+	display:inline-block;
+	background-color: #AAAAAA;
+}
+
+table
+{
+	border: 2px solid black;
+}
+
+th,td
+{
+	border-bottom: 1px solid #DDD;
+}
+
+tr:hover
+{
+	background-color: #B58F8F !important;
+}
+
+tr:nth-child(even) 
+{
+	background-color: #F2F2F2;
+}
+
+select 
+{
+    width: 20ch;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input
+{
+    border: 1px solid black;
+    border-radius: 4px;
+	padding: 3px;
+}
+.fieldSet
+{
+	overflow: hidden;
+	background-color: rgb(5, 5, 61);
+	color: white;
+}
